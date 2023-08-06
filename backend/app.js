@@ -11,6 +11,7 @@ const dbConfig = {
   user: "demoCode",
   host: "127.0.0.1",
   database: "demoCode",
+  socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock",
 };
 
 // Create the connection to the database
