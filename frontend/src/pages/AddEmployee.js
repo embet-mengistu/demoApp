@@ -21,7 +21,7 @@ function AddEmployee(props) {
     };
 
     // Send the data to the server
-    const apiUrl = "http://localhost:4000/add-employee";
+    const apiUrl = "http://18.191.200.136:4000/add-employee";
     const requestOptions = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
